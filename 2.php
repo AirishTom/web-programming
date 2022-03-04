@@ -1,0 +1,9 @@
+<?php
+$name=array('rahul'=>56,'ram'=>45,'john'=>78);
+print_r($name);
+echo("<br>");
+asort($name);
+print_r($name);
+echo("<br>");
+arsort($name);
+print_r($name);
